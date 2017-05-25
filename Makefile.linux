@@ -1,0 +1,3 @@
+
+pomodoro: main.c db16.h db16.c screen.h screen.c display.h display.c buttons.h buttons.c widget.h widget.c wave.h wave.c
+	cc -Wall -pedantic -std=c11 -ggdb main.c db16.c screen.c display.c buttons.c widget.c wave.c -o pomodoro -lSDL2
